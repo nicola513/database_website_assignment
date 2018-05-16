@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Customer account create</title>
+	</head>
+	<body>
+		<h1>Account creating<h1>
+		<form action="insertCustInfo.php" method="POST">
+			<table>
+				<tr>
+					<td><b>Customer account: </b></td>
+					<td><input name="custID" type="text" maxlength="10"/></td>
+				</tr>
+				<tr>
+					<td><b>Password: </b></td>
+					<td><input name="password" type="text" maxlength="10"/></td>
+				</tr>
+				<tr>
+					<td><b>Password (again): </b></td>
+					<td><input name="password2" type="text" maxlength="10"/></td>
+				</tr>
+				<tr>
+					<td><b>Customer name: </b></td>
+					<td><input name="custName" type="text" maxlength="80"/></td>
+				</tr>
+				<tr>
+					<td><b>Phone Number: </b></td>
+					<td><input name="phoneNum" type="text" maxlength="8"/></td>
+				</tr>
+				<tr>
+					<td><b>Address: </b></td>
+					<td><input name="address" type="text" maxlength="500"/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="create" /></td>
+				</tr> 
+			</table>
+		</form>
+		<h4><a href="login.html">Return to login</a></h4>
+	</body>
+</html>
